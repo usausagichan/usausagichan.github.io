@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on My Project</title>
+    <link>https://usausagichan.github.io/blog/</link>
+    <description>Recent content in Blogs on My Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 07 Jan 2023 10:07:47 +0800</lastBuildDate><atom:link href="https://usausagichan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PTT輿情分析-秋冬流行唇妝與顧客分群</title>
+      <link>https://usausagichan.github.io/blog/cosmetic/</link>
+      <pubDate>Sat, 07 Jan 2023 10:07:47 +0800</pubDate>
+      
+      <guid>https://usausagichan.github.io/blog/cosmetic/</guid>
+      <description>平時對化妝品完全沒有概念，但想幫女朋友或朋友挑唇膏當聖誕禮物？別擔心，不用辛苦的看一堆網路文章，觀察PTT網友的用字遣詞自然會告訴你該怎麼挑唇膏
+專案簡介 利用python 抓取PTT MakeUP版2022年9/6到12/28所有有關唇膏的文章，進行關鍵字篩選及統計後以K-mean分群法將顧客分成五大群，並對他們各自喜好的唇膏顏色做統計分析。
+在這個專案中，我定義留言者對關鍵字使用的多寡為他對關鍵字的需求或偏好。比如一位留言者有護唇膏的需求，我便假設他會在留言中多次提及唇膏。而K-means分群正可以將不同維度中量值相似的向量區分出來，在專案中對應到的就是對一些關鍵字使用程度類似的留言者，我們可以說他們的偏好相近。因此，藉由K-means分群便可以近一步了解市場上偏好各異的消費者族群。 專案中所使用到的code可見於 本連結
+1.爬取PTT貼文 為了了解秋冬流行的唇膏，我利用Beautiful Soup 套件抓取9/6到12/28所有文章的標題、文章、留言和作者及留言者，並篩選出標題或文章內包含「唇」的貼文，確保資料探討的內容和唇妝有關。我們可以利用jieba切詞切分出文章出現的字詞，切詞後的貼文可見於下圖 小技巧：切分關鍵詞後可以事先刪除常見字尾或贅詞、PTT符號節省後面處理資料的時間。此外，事先將dict.</description>
+    </item>
+    
+    <item>
+      <title>從0050看台灣產業分佈</title>
+      <link>https://usausagichan.github.io/blog/0050/</link>
+      <pubDate>Sat, 07 Jan 2023 10:07:47 +0800</pubDate>
+      
+      <guid>https://usausagichan.github.io/blog/0050/</guid>
+      <description>​ 只要你是台股的投資者，相信你一定對元大0050並不陌生。元大0050是台灣最大的指數型基金(ETF)之一，而他所追蹤的指數就是台灣50指數，我們可以簡略的把這檔ETF看作定期追蹤台灣市值前50大的公司，並按照這50大公司的市值去分配投資組合的比例，且會根據這些公司市值的變化滾動式修正投資組合的名單或佔比。因此，從0050的投資組合佔比我們便可掌握台灣大致的產業分佈和台灣的主流企業。
+在這個project中，我先利用python從公開資訊觀測站(https://mops.twse.com.tw/mops/web/t78sb04_q2) 抓取元大0050歷年來的投資組合比例，然後用Tableau視覺化分析台灣產業分佈和主流企業的變化。
+關於爬取資料的部分，我將程式碼放在我的Github： https://github.com/usausagichan/data-mining-for-0050.Tw- ，有興趣的朋友可以參考一下。
+而以下文章我就直接呈現將這些資料視覺化的結果（https://public.tableau.com/app/profile/ctchen/viz/IndustryAnalysis_16698030444010/Dashboard1可見完整dashboard），並為此做一些分析。
+公開資訊觀測站的資料
+抓下來的資料如下圖，可以看到表中包含了股票名稱、產業類別和持股比率，欄目持股比率為單一公司股票佔比，持股比率.1為產業類別的佔比</description>
+    </item>
+    
+    <item>
+      <title>kaggle-波士頓房價預測</title>
+      <link>https://usausagichan.github.io/blog/houseprice/</link>
+      <pubDate>Fri, 30 Sep 2022 10:07:47 +0800</pubDate>
+      
+      <guid>https://usausagichan.github.io/blog/houseprice/</guid>
+      <description>一間房子到底要賣多少錢才符合行情？我們最直接想到的判斷要素應該會是這個房子的地段和坪數。實際上不只這兩點，還有許多因素會影響房價。我們就用kaggle上的波士頓房價資料集來看這件事吧
+在資料前處理的部分我會
+將資料視覺化，並對資料做一些轉換和剔除不重要或互相有強烈關聯的feature 了解各feature代表的意義，適當的填入缺失值和做one-hot coding 用Lasso做feature selection 接著進入training 的環節，我使用的model是XGBoost，以5-fold cross validation選出模型合適參數，最後用train出來的模型做房價預測</description>
+    </item>
+    
+  </channel>
+</rss>
