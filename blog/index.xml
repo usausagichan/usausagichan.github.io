@@ -44,5 +44,15 @@
 將資料視覺化，並對資料做一些轉換和剔除不重要或互相有強烈關聯的feature 了解各feature代表的意義，適當的填入缺失值和做one-hot coding 用Lasso做feature selection 接著進入training 的環節，我使用的model是XGBoost，以5-fold cross validation選出模型合適參數，最後用train出來的模型做房價預測</description>
     </item>
     
+    <item>
+      <title>行動支付-街口支付 v.s Line Pay</title>
+      <link>https://usausagichan.github.io/blog/pay/</link>
+      <pubDate>Sat, 07 Mar 2020 10:07:47 +0800</pubDate>
+      
+      <guid>https://usausagichan.github.io/blog/pay/</guid>
+      <description>B05202002 物理四 陳緻庭
+隨著行動支付在台灣的普及，大家出門消費時再也不需要帶一大堆鈔票零錢跟 信用卡，買東西結帳時只需小小一隻智慧型手機，輕輕地掃一下 QRCODE 或商 店內的感應器就能解決所有問題。更不須擔心在路上被搶劫或錢包忘記帶。在 政策推動與行動支付業者投入資金祭出優秀的消費回饋之下，根據金管會統計 資料，2019 上半年台灣民間消費金額由行動支付付款的比例已達 41.</description>
+    </item>
+    
   </channel>
 </rss>
