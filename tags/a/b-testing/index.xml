@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A/B Testing on My Project</title>
-    <link>https://usausagichan.github.io/english_version/tags/a/b-testing/</link>
+    <link>https://usausagichan.github.io/tags/a/b-testing/</link>
     <description>Recent content in A/B Testing on My Project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="https://usausagichan.github.io/english_version/tags/a/b-testing/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language><atom:link href="https://usausagichan.github.io/tags/a/b-testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A/B Testing - User referral Program</title>
-      <link>https://usausagichan.github.io/english_version/blog/abtest_english/</link>
+      <link>https://usausagichan.github.io/blog/abtest/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://usausagichan.github.io/english_version/blog/abtest_english/</guid>
+      <guid>https://usausagichan.github.io/blog/abtest/</guid>
       <description>專案簡介 對品牌來說，藉由現有客戶引進新客戶有時是比大量投放廣告更有效率的方法。比如對手機遊戲來說，朋友是不是也有在玩很多時候會影響你繼續玩下去的意願。想像一下如果全班都在玩某款手遊，你是不是也會忍不住載來玩看看呢？因此很多手機遊戲經常會推出邀請朋友送道具的活動，為的就是要吸引你和你的朋友同時玩這款遊戲，增加新客-你的朋友的同時，也讓你們兩個在遊戲的留存率因為對方也在玩的關係跟著提高。 但是如果你是企劃，在推薦計畫推出前是不是得先用少部分的玩家先測試一下方案的效果呢？這時就需要用A/B Test來驗證方案效果。 這個專案便是用(https://datamasked.com/)網站中的資料練習A/B Testing的實作，確定某公司實施的推薦計劃是否有效（或有助於公司賺取更多的收入）。 我認為推薦計劃的成功應該定義為： （1）通過推薦計劃找到有價值的用戶（即推薦用戶的消費高於普通用戶）， （2）促進銷售或增加整體消費。
 為了確定推薦計劃是否有效，我們需要回答以下問題： （1）推薦計劃的用戶是否比普通用戶消費更多？ （2）推薦計劃是否能增加收入？</description>
     </item>
