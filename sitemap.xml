@@ -2,54 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://usausagichan.github.io/blog/abtest/</loc>
-    <lastmod>2023-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/blog/</loc>
-    <lastmod>2023-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/categories/</loc>
-    <lastmod>2023-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/</loc>
-    <lastmod>2023-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/categories/project/</loc>
-    <lastmod>2023-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/tags/python/</loc>
-    <lastmod>2023-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/tags/</loc>
-    <lastmod>2023-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/tags/machine-learning/</loc>
-    <lastmod>2023-01-07T10:07:47+08:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/blog/cosmetic/</loc>
-    <lastmod>2023-01-07T10:07:47+08:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/tags/scraping/</loc>
-    <lastmod>2023-01-07T10:07:47+08:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/tags/tableau/</loc>
-    <lastmod>2023-01-07T10:07:47+08:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/blog/0050/</loc>
-    <lastmod>2023-01-07T10:07:47+08:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/blog/houseprice/</loc>
-    <lastmod>2022-09-30T10:07:47+08:00</lastmod>
-  </url><url>
-    <loc>https://usausagichan.github.io/about/</loc>
+    <loc>https://usausagichan.github.io/english_version/contact/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>https://usausagichan.github.io/contact/</loc>
+    <loc>https://usausagichan.github.io/english_version/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>https://usausagichan.github.io/search/</loc>
+    <loc>https://usausagichan.github.io/english_version/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url><url>
-    <loc>https://usausagichan.github.io/tags/a/b-testing/</loc>
+    <loc>https://usausagichan.github.io/english_version/about/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/blog/cosmetic_english/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/blog/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/categories/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/blog/houseprice_english/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/tags/machine-learning/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/categories/project/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/tags/python/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/tags/scraping/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/blog/0050_english/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/tags/tableau/</loc>
+  </url><url>
+    <loc>https://usausagichan.github.io/english_version/tags/</loc>
   </url>
 </urlset>
